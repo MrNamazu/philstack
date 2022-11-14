@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  color: #FFF;
+  background-color: #000;
+}
+body > div {
+  height: 100%;
+}
