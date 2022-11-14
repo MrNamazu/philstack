@@ -4,7 +4,7 @@
 </script>
 
 <div class="h-full">
-  <div class="w-[75px] h-full bg-[#141414] fixed flex flex-col justify-between">
+  <div class="w-[75px] h-full bg-[#141414] fixed flex flex-col justify-between sm:w-[60px]">
     <div>
       <a href="/">
         <Logo />
