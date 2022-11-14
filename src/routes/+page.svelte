@@ -26,11 +26,8 @@
 
 	<FullpageSection>
 		<img src={bgft} alt="bg" class="absolute object-cover w-full h-full">
-		<div class="flex flex-col relative w-full h-full mb-32">			
-			<div class="flex w-full">
-				<h1>Get in Touch</h1>
-			</div>
-			<footer class="absolute bottom-0 w-full flex flex-col items-center">
+		<div class="flex flex-col relative w-full h-full mb-32 sm:mb-0 sm:justify-center">			
+			<footer class="absolute bottom-0 w-full flex flex-col items-center sm:relative">
 				<div class="flex items-center justify-between w-[80%] sm:flex-col sm:w-[90%]">
 					<div><Fulllogo /></div>
 					<div class="flex gap-10 items-center sm:gap-3">
