@@ -11,7 +11,7 @@
 </svelte:head>
 
 <Fullpage>
- 	<FullpageSection title="Svelte Fullpage">
+<!--  	<FullpageSection title="Svelte Fullpage">
 
 		<div class="container text-center">
 			<div class="row">
@@ -22,7 +22,7 @@
 				</div>
 			</div>
 		</div>
-	</FullpageSection>
+	</FullpageSection> -->
 
 	<FullpageSection>
 
@@ -31,9 +31,9 @@
 				<h1>Get in Touch</h1>
 			</div>
 			<footer class="absolute bottom-0 w-full flex flex-col items-center">
-				<div class="flex items-center justify-between w-[80%]">
+				<div class="flex items-center justify-between w-[80%] sm:flex-col sm:w-[90%]">
 					<div><Fulllogo /></div>
-					<div class="flex gap-10 items-center">
+					<div class="flex gap-10 items-center sm:gap-3">
 						<a href="/" class="font-bold">Home</a>
 						<i class="fa-solid fa-minus"></i>
 						<a href="/" class="font-bold">Blog</a>
@@ -42,32 +42,32 @@
 					</div>
 				</div>
 
-				<div class="w-[80%] h-[1px] bg-white bg-opacity-50 my-8" />
+				<div class="w-[80%] h-[1px] bg-white bg-opacity-50 my-8 sm:w-[90%]" />
 
-				<div class="flex items-center justify-between w-[80%]">
+				<div class="flex items-center justify-between w-[80%] sm:flex-col sm:gap-5 sm:w-[90%]">
 					<div>
-						<div>
+						<div class="sm:text-center">
 							<i class="fa-brands fa-linkedin text-3xl mr-2"></i>
 							<i class="fa-brands fa-square-github text-3xl mr-2"></i>
 							<i class="fa-brands fa-square-twitter text-3xl"></i>
 						</div>
-						<div class="text-gray-300 text-sm mt-4">© All rights reserved. Philstack.de 2021 - 2022</div>
+						<div class="text-gray-300 text-sm mt-4 sm:text-center">© All rights reserved. Philstack.de 2021 - 2022</div>
 					</div>
-					<div>
+					<div class="sm:text-center">
 						<div class="font-bold uppercase mb-3">Adresse:</div>
 						<div>
 							<p class="text-gray-300 text-sm">Neu-Ulmer Str. 19</p>
 							<p class="text-gray-300 text-sm">98617 Meiningen</p>
 						</div>
 					</div>
-					<div>
+					<div class="sm:text-center">
 						<div class="font-bold uppercase mb-3">Kontakt:</div>
 						<div>
 							<p class="text-gray-300 text-sm">01590/6302212</p>
 							<p class="text-gray-300 text-sm">Stehle@Mailbox.org</p>
 						</div>
 					</div>
-					<div class="mr-36">
+					<div class="mr-36 sm:text-center sm:mr-0">
 						<div class="font-bold uppercase mb-3">Links:</div>
 						<div><a href="/" class="text-gray-300 text-sm">Home</a></div>
 						<div><a href="/" class="text-gray-300 text-sm">Blog</a></div>
