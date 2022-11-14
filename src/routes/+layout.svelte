@@ -28,7 +28,7 @@
       </a>
     </div>
   </div>
-  <div class="ml-[75px] h-full">
+  <div class="ml-[75px] h-full sm:ml-[60px]">
     <slot />
   </div>
 </div>
