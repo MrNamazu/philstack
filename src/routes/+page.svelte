@@ -25,7 +25,7 @@
 	</FullpageSection>
 
 	<FullpageSection>
-
+		<img src={bgft} alt="bg">
 		<div class="flex flex-col relative w-full h-full mb-32">			
 			<div class="flex w-full">
 				<h1>Get in Touch</h1>
