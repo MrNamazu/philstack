@@ -11,7 +11,7 @@
 </svelte:head>
 
 <Fullpage>
-<!--  	<FullpageSection title="Svelte Fullpage">
+ 	<FullpageSection title="Svelte Fullpage">
 
 		<div class="container text-center">
 			<div class="row">
@@ -22,7 +22,7 @@
 				</div>
 			</div>
 		</div>
-	</FullpageSection> -->
+	</FullpageSection>
 
 	<FullpageSection>
 
