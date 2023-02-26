@@ -1,8 +1,13 @@
 import { sveltekit } from '@sveltejs/kit/vite';
-import type { UserConfig } from 'vite';
+import { resolve } from 'path';
+import { defineConfig } from 'vite';
+const projectRootDir = resolve(__dirname);
 
-const config: UserConfig = {
-	plugins: [sveltekit()]
-};
-
-export default config;
+export default defineConfig({
+	plugins: [sveltekit()],
+	resolve: {
+		alias: {
+				'$root': resolve(projectRootDir, ''),
+		},
+},
+});
